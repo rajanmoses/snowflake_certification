@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Obsidian
+.obsidian/
+
+# Secrets / credentials — never commit
+.env
+.env.local
+.env.*.local
+*.pem
+*.p8
+*.key
+*.pfx
+credentials.json
+~/.snowsql/
+snowsql_config
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node (if any)
+node_modules/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
